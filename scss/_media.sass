@@ -1,0 +1,256 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 18px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .reasons
+        &_block
+            align-items: flex-start
+        &_descr
+            width:300px
+    .mobile
+        &_item
+            width: 300px
+    .choice
+        &_img
+            left: 25%
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            width: 126px
+            height: 42px
+            font-size: 12px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .work_us
+        .reasons_block
+            flex-direction: column
+            align-items: center
+        .reasons_descr
+            width: 300px
+            margin-top: 20px
+        .cause_8
+            font-size: 33px
+            padding: 24px
+    .mobile
+        &_item
+            width: 228px
+            height: 243px
+            &_subtitle
+                font-size: 17px
+    .choice
+        &_img
+            left: -8%
+    .require
+        &_title
+            font-size: 21px
+        &_list
+            li
+                font-size: 15px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top:0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8 )
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right:0
+            border:0
+            margin: 10px
+        &_link
+            font-size: 15px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            font-size: 14px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            text-align: center
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        &_header
+            line-height: 45px
+    .choice
+        background: black
+        img
+            width: 300px
+            height: 190px
+        &_descr
+            font-size: 17px
+            font-weight: 300
+            color: #ffffff
+        .cause_8_white
+            &_hidden
+                display: none
+        .subtitle_white
+            &_hidden
+                display: none
+@media (max-width: 575px)
+    .subheader
+        height: 60px
+        &_officiall
+            display: none
+        &_logo
+            margin-top: 16px
+            
+        &_phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            color: #ffffff
+            margin-top: 11px
+        &_btn
+            width: 116px
+            height: 28px
+            font-size: 10px
+            margin-top: 5px
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .menu
+        width: 85%
+    .work_us
+        padding: 22px 0 36px 0
+        .cause_8
+            font-size: 13px
+            margin-top: 15px
+            line-height: 16px
+        .reasons_block
+            margin-top: 26px
+            .reasons_round
+                margin-right: 0
+                width: 100px
+                height: 100px
+            .reasons_descr
+                width: 100%
+                margin-top: 27px
+    .mobile
+        padding: 22px 0 43px 0
+        .cause_8
+            font-size: 16px
+        .subtitle
+            font-size: 14px
+            line-height: 21px
+            margin-top: 11px
+    .choice
+        min-height: 390px
+        padding: 25px 0 33px 0
+        img
+            left: -3%
+        &_descr
+            font-size: 12px
+            bottom: 28px
+    .require
+        padding: 25px 0 26px 0
+        &_block
+            margin: 15px 0
+        .cause_8
+            margin-top: 15px
+            font-size: 16px
+        &_title
+            font-size: 16px
+        &_list
+            padding-left: 30px
+            li
+                font-size: 14px
+        &_descr
+            font-size: 14px
+    .map
+        min-height: 360px
+        padding: 25px 0 30px 0
+        &_link
+			width: 200px
+			display: block
+			bottom: 30px
+			line-height: 15px
+        .cause_8
+            font-size: 16px
+            margin-top: 15px
+        .subtitle
+            font-size: 14px
+            margin-top: 10px
+    footer 
+		padding: 25px 0 20px 0
+    
+
+                
+                    
+            
